@@ -31,8 +31,8 @@
             this.btnGO = new System.Windows.Forms.Button();
             this.rtbGO = new System.Windows.Forms.RichTextBox();
             this.labLog = new System.Windows.Forms.Label();
-            this.pic = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pic)).BeginInit();
+            this.picResult = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picResult)).BeginInit();
             this.SuspendLayout();
             // 
             // btnGO
@@ -44,6 +44,7 @@
             this.btnGO.TabIndex = 0;
             this.btnGO.Text = "麻煩點我抽牌可以嗎";
             this.btnGO.UseVisualStyleBackColor = true;
+            this.btnGO.Click += new System.EventHandler(this.btnGO_Click);
             // 
             // rtbGO
             // 
@@ -63,26 +64,28 @@
             this.labLog.TabIndex = 2;
             this.labLog.Text = "歷程";
             // 
-            // pic
+            // picResult
             // 
-            this.pic.Location = new System.Drawing.Point(434, 141);
-            this.pic.Name = "pic";
-            this.pic.Size = new System.Drawing.Size(233, 230);
-            this.pic.TabIndex = 3;
-            this.pic.TabStop = false;
+            this.picResult.Location = new System.Drawing.Point(434, 141);
+            this.picResult.Name = "picResult";
+            this.picResult.Size = new System.Drawing.Size(233, 230);
+            this.picResult.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picResult.TabIndex = 3;
+            this.picResult.TabStop = false;
             // 
             // frmGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pic);
+            this.Controls.Add(this.picResult);
             this.Controls.Add(this.labLog);
             this.Controls.Add(this.rtbGO);
             this.Controls.Add(this.btnGO);
             this.Name = "frmGame";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pic)).EndInit();
+            this.Load += new System.EventHandler(this.frmGame_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picResult)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -93,7 +96,7 @@
         private System.Windows.Forms.Button btnGO;
         private System.Windows.Forms.RichTextBox rtbGO;
         private System.Windows.Forms.Label labLog;
-        private System.Windows.Forms.PictureBox pic;
+        private System.Windows.Forms.PictureBox picResult;
     }
 }
 
