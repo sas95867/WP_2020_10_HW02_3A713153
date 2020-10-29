@@ -37,7 +37,7 @@
             // 
             // btnGO
             // 
-            this.btnGO.Font = new System.Drawing.Font("新細明體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnGO.Font = new System.Drawing.Font("標楷體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnGO.Location = new System.Drawing.Point(434, 30);
             this.btnGO.Name = "btnGO";
             this.btnGO.Size = new System.Drawing.Size(233, 105);
