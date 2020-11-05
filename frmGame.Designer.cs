@@ -39,7 +39,7 @@
             // 
             this.btnGO.Font = new System.Drawing.Font("標楷體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnGO.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnGO.Location = new System.Drawing.Point(72, 30);
+            this.btnGO.Location = new System.Drawing.Point(275, 25);
             this.btnGO.Name = "btnGO";
             this.btnGO.Size = new System.Drawing.Size(233, 105);
             this.btnGO.TabIndex = 0;
