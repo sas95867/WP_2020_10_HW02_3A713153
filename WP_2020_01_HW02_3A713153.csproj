@@ -81,6 +81,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="doc1\設計圖_HW.png" />
     <Content Include="res\001.png" />
     <Content Include="res\002.png" />
     <Content Include="res\003.png" />
