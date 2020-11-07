@@ -37,45 +37,53 @@
             // 
             // btnGO
             // 
+            this.btnGO.BackColor = System.Drawing.Color.Gold;
+            this.btnGO.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnGO.Font = new System.Drawing.Font("標楷體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnGO.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnGO.Location = new System.Drawing.Point(275, 25);
+            this.btnGO.Location = new System.Drawing.Point(367, 31);
+            this.btnGO.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGO.Name = "btnGO";
-            this.btnGO.Size = new System.Drawing.Size(233, 105);
+            this.btnGO.Size = new System.Drawing.Size(311, 131);
             this.btnGO.TabIndex = 0;
             this.btnGO.Text = "麻煩點我抽牌可以嗎";
-            this.btnGO.UseVisualStyleBackColor = true;
+            this.btnGO.UseVisualStyleBackColor = false;
             this.btnGO.Click += new System.EventHandler(this.btnGO_Click);
             // 
             // pic2
             // 
             this.pic2.Image = global::WP_2020_01_HW02_3A713153.Properties.Resources._053;
-            this.pic2.Location = new System.Drawing.Point(76, 157);
+            this.pic2.Location = new System.Drawing.Point(101, 196);
+            this.pic2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pic2.Name = "pic2";
-            this.pic2.Size = new System.Drawing.Size(228, 221);
+            this.pic2.Size = new System.Drawing.Size(304, 276);
             this.pic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic2.TabIndex = 4;
             this.pic2.TabStop = false;
             // 
             // picResult
             // 
-            this.picResult.Location = new System.Drawing.Point(472, 157);
+            this.picResult.Location = new System.Drawing.Point(629, 196);
+            this.picResult.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picResult.Name = "picResult";
-            this.picResult.Size = new System.Drawing.Size(233, 222);
+            this.picResult.Size = new System.Drawing.Size(311, 278);
             this.picResult.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picResult.TabIndex = 3;
             this.picResult.TabStop = false;
             // 
             // frmGame
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.PaleGreen;
+            this.ClientSize = new System.Drawing.Size(1067, 562);
             this.Controls.Add(this.pic2);
             this.Controls.Add(this.picResult);
             this.Controls.Add(this.btnGO);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmGame";
-            this.Text = "Form1";
+            this.Text = "抽撲克牌";
             this.Load += new System.EventHandler(this.frmGame_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pic2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picResult)).EndInit();
